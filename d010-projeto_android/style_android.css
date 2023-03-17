@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+
+
+header {
+    background-image: linear-gradient(to bottom, #26e87d, #2eb369, #2e915b, #2c754d, #285c40, #234834);
+    padding: 30px 30px 15px 30px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: #98eabc;
+}
+
+header > h1 {
+    font: 3em normal Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 15px 5px;
+    padding: 0px 0px 20px 0px;
+    text-shadow: 1px 1px 5px #0000008a;
+    
+
+}
+
+nav > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffffc0;
+    text-align: center;
+    text-shadow: 2px 2px 3px #0000008a;
+    padding: 0px 0px 20px 0px;
+}
+
+nav#menu > p {
+    margin: 0px;
+    padding: 10px 30px 0px 0px;
+    text-align: left;
+    padding-bottom: 0px;
+
+}
+
+nav#menu > p > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav#menu > p > a:hover {
+    color: #c0ffdb;
+    background-color: #2eb369;
+}
+
+main {
+    margin: 0px 100px;
+    background-color: white;
+    
+}
+
+
+section {
+    padding: 20px 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.397);
+    
+}
+
+
+article > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+article > h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #58e093, #76e6a6, #9cecbe, #c8f6dc, #ebfff4, #ffffff);
+    color: #10502d;
+    
+}
+
+article > h1 {
+    font-size: 2em;
+}
+
+article > p > a {
+    color: #10502d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article > p > a:hover {
+    text-decoration: underline;
+    color: #c0ffdb;
+    background-color: #2eb369;
+}
+
+aside {
+    margin: 50px 30px 0px 30px;
+    padding: 0px 0px 20px 0px;
+    background-color: #d5e1db;
+    border-radius: 10px;
+}
+
+aside > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 14px;
+    
+}
+
+aside > h3 {
+    background-color: #31905a;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside > ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+aside > p > a {
+    color: #10502d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside > p > a:hover {
+    text-decoration: underline;
+    color: #156539;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #134a2c;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+
+footer > p {
+    margin: 5px;
+}
